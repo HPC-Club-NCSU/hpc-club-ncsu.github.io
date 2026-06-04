@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { BannerLogo } from '../ui/BannerLogo';
 import { Button } from '../ui/Button';
 
@@ -20,18 +21,22 @@ export const HeroBanner = () => {
         {/* Supporting Copy */}
         <div className="max-w-3xl mx-auto mt-4 md:mt-8">
           <p className="text-base md:text-xl text-ncsu-white/70 mb-6 md:mb-8 font-body leading-relaxed px-2">
-            Buidling perfomant scalable systems in domains of  <span className="text-ncsu-white font-medium">Distributed Systems</span> and 
+            Building performant scalable systems in domains of <span className="text-ncsu-white font-medium">Distributed Systems</span> and 
             <span className="text-ncsu-white font-medium"> AI Infrastructure</span>
           </p>
 
           {/* Call to Action Buttons */}
           <div className="flex flex-col sm:flex-row justify-center gap-4 md:gap-6">
-            <Button variant="primary" className="shadow-[0_0_20px_rgba(204,0,0,0.2)] w-full sm:w-auto">
-              Get Involved
-            </Button>
-            <Button variant="outline" className="w-full sm:w-auto">
-              Resources
-            </Button>
+            <Link to="/contact" className="w-full sm:w-auto">
+              <Button variant="primary" className="shadow-[0_0_20px_rgba(204,0,0,0.2)] w-full">
+                Get Involved
+              </Button>
+            </Link>
+            <Link to="/about" className="w-full sm:w-auto">
+              <Button variant="outline" className="w-full">
+                About Us
+              </Button>
+            </Link>
           </div>
         </div>
       </div>
