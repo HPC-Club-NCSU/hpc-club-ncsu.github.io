@@ -8,7 +8,7 @@ import { ContactPage } from './pages/ContactPage';
 
 function App() {
   return (
-    <Router basename="/hpc-website">
+    <Router>
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/about" element={<AboutPage />} />
