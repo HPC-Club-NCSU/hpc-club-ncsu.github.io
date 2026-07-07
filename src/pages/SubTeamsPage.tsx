@@ -14,13 +14,13 @@ export const SubTeamsPage = () => {
       stack: ['PyTorch', 'HuggingFace Transformers', 'BitsAndBytes (INT4/INT8)', 'vLLM', 'PagedAttention', 'NVIDIA Profiling Tools']
     },
     {
-      id: 'agentic-ai',
-      name: 'Agentic AI Team',
+      id: 'project-based',
+      name: 'Project-Based Team',
       track: 'Track B',
-      focus: 'Application & Brain Layer',
+      focus: 'Applied HPC & AI Solutions',
       icon: <HiCommandLine className="text-ncsu-red text-5xl mb-4" />,
-      accomplish: 'This team builds the application logic and the "brains" of the system. They code the autonomous execution loops that allow the LLM to plan, use programmatic tools (like web search and PDF parsers), and evaluate the agent\'s accuracy using a rigorous, automated testing framework.',
-      stack: ['Python', 'Tavily/Brave Search APIs', 'PyMuPDF', 'OpenAI/Anthropic APIs', 'RAGAS', 'GitHub Actions']
+      accomplish: 'This team collaborates directly with stakeholders to design and implement custom, end-to-end solutions. Utilizing high-performance clusters and scaling infrastructure built by the other sub-teams, they build and optimize diverse workloads including model training pipelines, distributed deep learning systems, scientific computing tasks, and custom AI applications.',
+      stack: ['Python', 'PyTorch / TensorFlow', 'HPC Clusters (SLURM / MPI)', 'Distributed Training', 'C++ / CUDA', 'FastAPI / REST']
     },
     {
       id: 'platform-eng',
@@ -45,7 +45,7 @@ export const SubTeamsPage = () => {
             </h1>
             <p className="text-xl text-ncsu-white/60 font-body max-w-2xl mx-auto">
               Our engineering efforts are divided into three specialized tracks, 
-              each focusing on a critical layer of the agentic AI stack.
+              each focusing on a critical layer of our production AI stack.
             </p>
           </div>
         </section>

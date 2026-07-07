@@ -49,7 +49,7 @@ export const AboutPage = () => {
               </div>
               <div className="bg-ncsu-black p-8 flex flex-col items-center text-center text-ncsu-white">
                 <HiCode className="text-ncsu-red text-4xl mb-3" />
-                <span className="font-tech text-[10px] uppercase tracking-widest font-bold">Agentic AI</span>
+                <span className="font-tech text-[10px] uppercase tracking-widest font-bold">Project-Based HPC & AI</span>
               </div>
               <div className="bg-ncsu-black p-8 flex flex-col items-center text-center text-ncsu-white">
                 <HiServer className="text-ncsu-red text-4xl mb-3" />
